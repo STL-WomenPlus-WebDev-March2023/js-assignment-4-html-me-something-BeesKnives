@@ -3,12 +3,12 @@
 html{
     margin-right: 80px;
     margin-left: 80px;
-    background-color: rgb(179, 167, 255);
+    background-color: rgb(204, 167, 255);
 }
 body{
     margin: 8px;
     display: block;
-    background-color: rgb(212, 205, 255);
+    background-color: rgb(227, 205, 255);
 }
 p{
     margin-left: 50px;
@@ -40,9 +40,9 @@ h1{
 }
 
 #mainHeading{
-    color:rgb(171, 0, 0);
+    color:red
     padding-top: 50px;
 }
-#testP{
+.funParagraph{
     color:green
 }
