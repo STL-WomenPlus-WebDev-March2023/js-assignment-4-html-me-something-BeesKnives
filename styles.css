@@ -1,1 +1,48 @@
 /* Write your CSS here! */
+
+html{
+    margin-right: 80px;
+    margin-left: 80px;
+    background-color: rgb(204, 167, 255);
+}
+body{
+    margin: 8px;
+    display: block;
+    background-color: rgb(227, 205, 255);
+}
+p{
+    margin-left: 50px;
+}
+img{
+    margin-left: 50px;
+}
+article{
+    padding-left: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+h3{
+    margin-top: -5px;
+    margin-bottom: -5px;
+}
+h1{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: -5px;
+}
+
+.plantName{
+    color:rgb(107, 0, 139)
+}
+#quarantineZone{
+    color:rgb(171, 0, 0);
+
+}
+
+#mainHeading{
+    color:red
+    padding-top: 50px;
+}
+.funParagraph{
+    color:green
+}
