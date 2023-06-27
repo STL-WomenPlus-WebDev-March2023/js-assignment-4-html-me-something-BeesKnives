@@ -5,13 +5,15 @@
    </head>
    <body>
       <header>
-         <h1>My Houseplants</h1>
+         <h1 id="mainHeading">My Houseplants</h1>
+         <link rel="stylesheet" type="text/css" href="styles.css">
+        
       </header>
       <!-- Write your HTML in this file! -->
       <main>
          <article>
-            <h2>Haworthias</h2>
-            <p>Succulents that can grow in medium light, unlike most that need lots of bright light.</p>
+            <h2 class="plantName">Haworthias</h2>
+            <p>Succulents that can grow in medium light, unlike most that need lots of direct sun.</p>
             <img src="Images/Haw-1.jpg" alt="Two haworthias. One is in a flower shape and has stripes of variegation, the other looks like a geometrical mound of forbidden green grapes." height="420"/>
             <p>Their translucent windows let the light in, allowing them to live in lower light than most other succulents. Also makes you want to take a bite. </p>
             <p>This one had babies:</p>
@@ -21,42 +23,44 @@
             <p>Rude.</p>
          </article>
          <article>
-            <h2>Purple Passion Plant</h2>
+            <h2 class="plantName">Hoya Krohniana "Black Leaves"</h2>
+            <p>I've wanted a black houseplant for a while now, so I was very happy to get this little cutting. It's supposed to darken in higer light, but can tolerate lower light.</p>
+            <img src="Images/Hoya-Black.jpg" height="420" alt="A small black and green plant, with a tiny black leaf growing out of it"/>
+            <p>It's not pure black, but a mix of black and green. The teeny new leaf started out lime green, but has darkened a lot in the sun.</p>
+         </article>
+         <article>
+            <h2 class="plantName">Purple Passion Plant</h2>
             <p>A green plant with purple fuzzies! They like to stay moist, and will droop their leaves when they need more water. Very good if you're forgetful!</p>
             <p>They're vining plants, so they grow up about a foot/foot and a half, then flop over.</p>
             <img src="Images/Purple-Passion.jpg" height="420" alt="Purple fuzzy plants. One is tipped over and has cutting taken from it."/>
             <p>These plants started out about the same size, then I repotted the left one in a bigger pot, and it grew very fast. I took a few cuttings from the top to hopefully help it stop lengthening so quickly and focus on growing a little bushier. I'm planning to combine them into one pot soon.</p>
          </article>
          <article>
-            <h2>Pilea Glauca</h2>
-            <p>Very cute tiny leaves, it's growing some long trailing limbs. My least problematic plant.</p>
-            <img src="Images/Pilea.jpg" height="420" alt="A trailing tiny-leaved plant"/>
-         </article>
-         <article>
-            <h2>Hoya Krohniana "Black Leaves"</h2>
-            <p>I've wanted a black houseplant for a while now, so I was very happy to get this little cutting. It's supposed to darken in higer light, but can tolerate lower light.</p>
-            <img src="Images/Hoya-Black.jpg" height="420" alt="A small black and green plant, with a tiny black leaf growing out of it"/>
-            <p>It's not pure black, but a mix of black and green. The teeny new leaf started out lime green, but has darkened a lot in the sun.</p>
-         </article>
-         <article>
-            <h2>Marble Queen Pothos</h2>
+            <h2 class="plantName">Marble Queen Pothos</h2>
             <p>I got this one as a cutting at a library plant swap.</p> 
             <p>I heard pothos are supposed to be easy to propagate, but this one really tested my patience. It took at least 2 weeks for it to even start thinking about putting out roots after I put it in water.</p>
             <img src="Images/Pothos.jpg" height="420" alt="A highly variegated pothos with yellow and green coloring"/>
          </article>
          <article>
-            <h2>The Quarantine Zone</h2>
+            <h2 class="plantName">Pilea Glauca</h2>
+            <p>Very cute tiny leaves, it's growing some long trailing limbs. My least problematic plant.</p>
+            <img src="Images/Pilea.jpg" height="420" alt="A trailing tiny-leaved plant"/>
+         </article>
+        <br/>
+         <article>
+            <h2 id="quarantineZone">The Quarantine Zone</h2>
             <p>Where new plants go for a few weeks to make sure I'm not introducing pests to my collection.</p>
             <p>I've been trying to stick to cuttings for new purchases, since they're both easier to check over for pests, and easier on my wallet.</p>
+            <br/>
             <article>
-               <h3>Callisia Repens Pink Lady</h3>
+               <h3 class="plantName">Callisia Repens Pink Lady</h3>
                <p>Pink, white, green, and tiny.</p>
                <p>A bit of this fell off a plant at a nursery and they said I could keep it. I separated it into 3 teeny plants, and stuck them in soil with lots of perlite.</p>
                <img src="Images/Quar-pink.jpg" height="420" alt="Tiny pink and white leaves barely sticking up from the soil"/>
                <p>Who will live and who will die is never certain, but it's probably going to be the one on the bottom right.</p>
             </article>
             <article>
-               <h3>Hoya Heuschkeiliana Variegated</h3>
+               <h3 class="plantName">Hoya Heuschkeiliana Variegated</h3>
                <p>Extremely pretty, leaves are about the size of my Hoya Krohniana. New growth starts out pink and then fades into the normal white/green.</p>
                <img src="Images/Quar-white.jpg" height="420" alt="A two-leaf cutting, the leaves are mostly white with green along the outside."/>
                <p>It got ROOT ROT and discolored when I tried to transfer it from sphagnum moss to coco husk. >:( Now I have to re-root it in a different medium and hope this doesn't happen again.</p>
@@ -69,7 +73,7 @@
 
       </main>
       <footer>
-         <p> &#9830; Author: Anna Russell &#9830;</p>
+         <p id="testP" class="funParagraph"> &#9830; Author: Anna Russell &#9830;</p>
          <p></p>
       </footer>
    </body>
